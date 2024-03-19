@@ -51,7 +51,7 @@ const Contact = () => {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2">
               <h2 className="text-3xl flex justify-center items-center text-white font-bold mt-5 mb-4">Get In Touch</h2>
-              <p className="text-gray-600 mb-4">Let's connect as my inbox is always open. Feel free to ask questions or you can simply say Hi,
+              <p className="text-gray-600 mb-4">Lets connect as my inbox is always open. Feel free to ask questions or you can simply say Hi,
                 I will get back to you shortly!</p>
               <TrackVisibility>
                 {({ isVisible }) =>
