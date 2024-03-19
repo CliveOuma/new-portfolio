@@ -14,36 +14,39 @@ const Hero = () => {
             </span>
             <br></br>
             <TypeAnimation
-      sequence={[
-        'Clive Ouma',
-        1000,
-        'Software Engineer',
-        1000,
-      ]}
-      wrapper="span"
-      speed={50}
-      repeat={Infinity}
-    />
-            </h1>
+              sequence={[
+                'Clive Ouma',
+                1000,
+                'Software Engineer',
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
+          </h1>
           <p className='text-white lg:text-xl text-base mb-6 sm:text-lg'>
             I am a motivated Junior Software Engineer
           </p>
           <div>
             <button className='py-3 px-6 mr-4 rounded-full  sm:w-fit w-full bg-gradient-to-br from-orange-500 via-red-600 to-blue-500 hover:bg-slate-200 text-white'>
-            <a href="#contact">Hire me !</a></button>
+              <a href="#contact">Hire me !</a></button>
             <button className='py-1 px-1 rounded-full sm:w-fit mt-3 w-full bg-gradient-to-br  from-orange-500 via-red-600 to-blue-500  hover:bg-slate-900 text-white border border-white '>
-            <span className='block bg-black rounded-full px-5 py-2 hover:bg-slate-900'><a href="/docs/Resume.pdf" class="flex items-center">
-            <span class="mr-2">Download Resume</span><img src="/assets/img/download-solid.svg" alt="download" className="w-5 filter invert h-5"/></a></span></button>
+              <span className='block bg-black rounded-full px-5 py-2 hover:bg-slate-900'><a href="/docs/Resume.pdf" className="flex items-center">
+                <span className="mr-2">Download Resume</span><Image src="/assets/img/download-solid.svg" width={3}
+                  height={3} alt="download" className="w-5 filter invert h-5" />
+              </a></span></button>
           </div>
         </div>
         <div className='col-span-4 place-self-center mt-3 lg:mt-0'>
           <div className='rounded-full relative lg:w-[400px] lg:h-[400px]  w-[200px] h-[200px]'>
             <Image
-              src='/images/hero-image.jpg' 
+              src='/images/hero-image.jpg'
               width={300}
               height={300}
               priority={true}
-              alt="my image" 
+              style={{ width: "auto", height: "auto" }}
+              alt="my image"
               className='rounded-full mt-10'
             />
           </div>
