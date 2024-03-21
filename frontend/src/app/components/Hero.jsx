@@ -19,6 +19,8 @@ const Hero = () => {
                 1000,
                 'Software Engineer',
                 1000,
+                'Web Developer',
+                1000,
               ]}
               wrapper="span"
               speed={50}
@@ -26,7 +28,8 @@ const Hero = () => {
             />
           </h1>
           <p className='text-white lg:text-xl text-base mb-6 sm:text-lg'>
-            I am a motivated Junior Software Engineer
+            I am a Junior Software Engineer creating accessible
+            and quality software applications.
           </p>
           <div>
             <button className='py-3 px-6 mr-4 rounded-full  sm:w-fit w-full bg-gradient-to-br from-orange-500 via-red-600 to-blue-500 hover:bg-slate-200 text-white'>
