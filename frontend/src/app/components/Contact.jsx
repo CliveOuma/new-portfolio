@@ -73,19 +73,19 @@ const Contact = () => {
                     <form onSubmit={handleSubmit} className="w-full">
                       <div className="flex flex-wrap  mt-6">
                         <div className="w-full md:w-1/2 px-2 mb-4">
-                          <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} className="bg-gray-200 border border-gray-300 rounded-lg py-2 px-4 w-full focus:outline-none focus:border-indigo-500" />
+                          <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} className="bg-gray-200 border border-gray-300 rounded-lg py-2 px-4 w-full text-black focus:outline-none focus:border-indigo-500" />
                         </div>
                         <div className="w-full md:w-1/2 px-2 mb-4">
-                          <input type="text" value={formDetails.lastName} placeholder="Last Name" onChange={(e) => onFormUpdate('lastName', e.target.value)} className="bg-gray-200 border border-gray-300 rounded-lg py-2 px-4 w-full focus:outline-none focus:border-indigo-500" />
+                          <input type="text" value={formDetails.lastName} placeholder="Last Name" onChange={(e) => onFormUpdate('lastName', e.target.value)} className="bg-gray-200 border border-gray-300 rounded-lg py-2 px-4 w-full text-black focus:outline-none focus:border-indigo-500" />
                         </div>
                         <div className="w-full px-2 mb-4">
-                          <input type="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} className="bg-gray-200 border border-gray-300 rounded-lg py-2 px-4 w-full focus:outline-none focus:border-indigo-500" />
+                          <input type="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} className="bg-gray-200 border border-gray-300 rounded-lg py-2 px-4 w-full text-black focus:outline-none focus:border-indigo-500" />
                         </div>
                         <div className="w-full px-2 mb-4">
-                          <input type="tel" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)} className="bg-gray-200 border border-gray-300 rounded-lg py-2 px-4 w-full focus:outline-none focus:border-indigo-500" />
+                          <input type="tel" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)} className="bg-gray-200 border border-gray-300 rounded-lg py-2 px-4 w-full text-black focus:outline-none focus:border-indigo-500" />
                         </div>
                         <div className="w-full px-2 mb-4">
-                          <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)} className="bg-gray-200 border border-gray-300 rounded-lg py-2 px-4 w-full focus:outline-none focus:border-indigo-500"></textarea>
+                          <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)} className="bg-gray-200 border border-gray-300 rounded-lg py-2 px-4 w-full text-black focus:outline-none focus:border-indigo-500"></textarea>
                         </div>
                         <div className="w-full px-2">
                           <button type="submit" className="bg-orange-600 hover:bg-orange-400 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">{buttonText}</button>
