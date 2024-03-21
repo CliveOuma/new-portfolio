@@ -16,7 +16,7 @@ const projectsData = [
     {
       id: 2,
       title: "Student Management System",
-      description: "A comprehensive solution for managing students,students to also access details securely.",
+      description: "A solution for managing students,students to also access details securely.",
       image: "/images/projects/std-image.png",
       tag: ["All"],
       gitUrl: "https://github.com/CliveOuma/student-management-system",
