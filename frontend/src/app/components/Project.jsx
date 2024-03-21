@@ -6,17 +6,17 @@ import ProjectTag from './ProjectTag'
 const projectsData = [
     {
       id: 1,
-      title: "Ecommerce Website",
-      description: "An Ecommerce Website that allows customers to add and remove products from their cart and authentication of users",
-      image: "/images/projects/shop-image.png",
+      title: "Landing Page",
+      description: "A simple and responsive landing page to showcase laptops and their prices",
+      image: "/images/projects/landing.png",
       tag: ["All", "Web"],
-      gitUrl: "https://github.com/CliveOuma/my-ecommerce",
-      previewUrl: "https://my-ecommerce-client.vercel.app",
+      gitUrl: "https://github.com/CliveOuma/landing-page",
+      previewUrl: "https://laptops-landing-page.vercel.app/",
     },
     {
       id: 2,
       title: "Student Management System",
-      description: "A comprehensive solution for managing students and students to access their information securely.",
+      description: "A comprehensive solution for managing students,students to also access details securely.",
       image: "/images/projects/std-image.png",
       tag: ["All"],
       gitUrl: "https://github.com/CliveOuma/student-management-system",
